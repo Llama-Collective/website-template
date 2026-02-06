@@ -112,8 +112,8 @@ export function HeaderBar(props: Props) {
           </div>
 
           <div className="flex shrink-0 items-center gap-2">
-            <a
-              href={siteConfig.siteOrigin}
+            <ForesightPrefetchLink
+              href="/"
               className={clsx(
                 "rounded-xl border px-3 py-2 text-sm transition",
                 view === "home"
@@ -122,7 +122,7 @@ export function HeaderBar(props: Props) {
               )}
             >
               Home
-            </a>
+            </ForesightPrefetchLink>
             <ForesightPrefetchLink
               href="/archives"
               className={clsx(
