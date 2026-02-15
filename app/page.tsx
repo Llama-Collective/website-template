@@ -61,7 +61,7 @@ export default function Home() {
             <p className="text-xs font-semibold uppercase tracking-wide text-sky-700 dark:text-sky-300">
               Welcome to LlamaMC Archive
             </p>
-            <h1 className="mt-2 text-3xl font-semibold sm:text-4xl">The community for storage innovators</h1>
+            <h1 className="mt-2 text-3xl font-semibold sm:text-4xl">A website template for Minecraft archives</h1>
             <p className="mt-3 max-w-3xl text-base leading-relaxed text-gray-900 dark:text-gray-200">
               This is an example archive website built with the LlamaMC Archive Template. Feel free to explore the
               archive and dictionary to see how the template works, and imagine what you could build with your own
